@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task - Landing Page</title>
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="main-bg">
+        <div class="content">
+          <!-- HEADER START HERE  -->
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand text-white" href="#">Logo</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Merchant</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Client</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+
+                <div class="d-flex ms-auto align-items-center g-3">
+                  <div class="dropdown">
+                    <button
+                      class="btn text-white border border-light btn-outline-light dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Language
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Egnlish</a></li>
+                      <li><a class="dropdown-item" href="#">Bangla</a></li>
+                    </ul>
+                  </div>
+                  <button class="btn-one">Login</button>
+                  <button class="btn-two">Join Now</button>
+                </div>
+                <h1 class=""></h1>
+              </div>
+            </div>
+          </nav>
+          <!-- HEADER END HERE  -->
+
+          <!-- HERO SECTION -->
+          <section class="container hero">
+            <div class="py-5">
+              <div class="container">
+                <div class="row align-items-center gx-5">
+                  <div class="col-md-6 order-2 order-lg-1">
+                    <h1 class="text-light fw-bold">
+                      Never Buy Or Sell Online <br />
+                      Without Ln SeEscrow
+                    </h1>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Dicta id voluptatum reiciendis doloremque natus quo ipsam
+                      magni dolorem similique? Enim assumenda, repudiandae nemo
+                      dolore quos omnis animi odit magnam excepturi?
+                    </p>
+                    <form>
+                      <div class="form-group">
+                        <div class="d-flex" style="margin-bottom: 10px">
+                          <select
+                            class="form-control select py-2"
+                            style="width: 30%"
+                            id="selectItem"
+                          >
+                            <option selected>I am Selling</option>
+                            <option>I am Buying</option>
+                          </select>
+                          <input
+                            placeholder="Select One "
+                            style="width: 70%"
+                            class="input py-2 px-3"
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input
+                            type="number"
+                            class="form-control py-2"
+                            id="amount"
+                            placeholder="For the Amout of"
+                          />
+                          <span class="input-group-text" id="dollarSign"
+                            >USD</span
+                          >
+                        </div>
+                      </div>
+                      <button
+                        type="submit"
+                        style="padding: 12px 15px"
+                        class="btn-two mt-4"
+                      >
+                        Continue to Next
+                      </button>
+                    </form>
+                  </div>
+                  <div class="col-md-6 mb-4 mb-lg-0 order-1 order-lg-2">
+                    <img
+                      src="https://via.placeholder.com/500x400?text=Banner+Illustration"
+                      class="img-fluid"
+                      alt="Banner Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- HERO SECTION -->
+        </div>
+      </div>
+
+      <!-- Transact Section -->
+
+      <section>
+        <div class="container px-4 px-lg-0" style="padding: 55px 0">
+          <div class="row gx-5 justify-content-between">
+            <div class="col-12 col-lg-5 order-2 order-lg-1">
+              <h2 class="featurette-heading fw-bold" style="color: #0e293e">
+                Transact Safely With Our <br />
+                Peer-to-Peer Escrow-Style <br />
+                Payment Platform
+              </h2>
+              <p
+                class="text-black lh-sm py-2"
+                style="font-size: 17px; text-align: justify"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Labore, expedita minima tempore inventore aliquam explicabo
+                tempora amet itaque eius, eveniet ab necessitatibus. Vero
+                consequuntur alias dicta eos amet culpa perspiciatis!
+              </p>
+
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p class="text-black">
+                    <i
+                      class="fa-solid fa-shield-halved"
+                      style="color: #3bb85a; font-size: 19px"
+                    ></i>
+                    Safe and secure transactions
+                  </p>
+                  <p>
+                    <i
+                      class="fa-solid fa-file"
+                      style="color: #3bb85a; font-size: 19px"
+                    ></i>
+                    Hassle-free setup of escrow account
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <i
+                      class="fa-solid fa-house-chimney"
+                      style="color: #3bb85a; font-size: 19px"
+                    ></i>
+                    Doorstep service
+                  </p>
+                  <p>
+                    <i
+                      class="fa-solid fa-shield-halved"
+                      style="color: #3bb85a; font-size: 19px"
+                    ></i>
+                    Nil fee for account setup
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
+              <img
+                class="featurette-image img-fluid w-100"
+                alt="marketing"
+                src="https://placehold.co/600x400"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Transact Section -->
+
+      <!-- Features Section -->
+
+      <section>
+        <div class="container px-4 px-lg-0" style="padding: 40px 0">
+          <div class="row gx-5 justify-content-between">
+            <div class="col-12 col-lg-5">
+              <img
+                class="featurette-image img-fluid w-100"
+                alt="marketing"
+                src="https://placehold.co/600x400"
+              />
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <h2 class="featurette-heading fw-bold" style="color: #0e293e">
+                Provided Features
+              </h2>
+              <p
+                class="text-black lh-sm py-2"
+                style="font-size: 17px; text-align: justify"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Labore, expedita minima tempore inventore aliquam explicabo
+              </p>
+              <!-- #3bb85a; -->
+
+              <div>
+                <div class="d-flex align-items-center g-2">
+                  <div class="round text-center">
+                    <i
+                      class="fa-solid fa-code mx-auto text-center"
+                      style="color: white; font-size: 18px; margin-top: 15px"
+                    ></i>
+                  </div>
+                  <div class="ms-2 mt-4">
+                    <h4 class="" style="font-size: 18px; font-weight: bold">
+                      Built for Developers, by Developers
+                    </h4>
+                    <p class="" style="font-size: 14px">
+                      Maecenas tempus tellus eget condimentum ncus sem quam
+                      semper libero sit amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center g-2">
+                  <div class="round text-center">
+                    <i
+                      class="fa-solid fa-shield-halved mx-auto text-center"
+                      style="color: white; font-size: 19px; margin-top: 15px"
+                    ></i>
+                  </div>
+                  <div class="ms-2">
+                    <h4 class="" style="font-size: 18px; font-weight: bold">
+                      Built for Developers, by Developers
+                    </h4>
+                    <p class="" style="font-size: 14px">
+                      Maecenas tempus tellus eget condimentum ncus sem quam
+                      semper libero sit amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center g-2">
+                  <div class="round text-center">
+                    <i
+                      class="fa-brands fa-html5 mx-auto text-center"
+                      style="color: white; font-size: 19px; margin-top: 15px"
+                    ></i>
+                  </div>
+                  <div class="ms-2">
+                    <h4 class="" style="font-size: 18px; font-weight: bold">
+                      Built for Developers, by Developers
+                    </h4>
+                    <p class="" style="font-size: 14px">
+                      Maecenas tempus tellus eget condimentum ncus sem quam
+                      semper libero sit amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+
+      <!-- Newslater -->
+
+      <section class="home-newsletter" style="padding: 30px 0">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="single">
+                <h2>Subscribe to our Newsletter</h2>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-theme" type="submit">
+                      Subscribe
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Newslater -->
+
+      <!-- service -->
+
+      <!-- Service 4 - Bootstrap Brain Component -->
+      <section class="bg-light py-5 py-xl-8">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+              <h3 class="fs-6 mb-2 text-secondary text-center text-uppercase">
+                What We Do?
+              </h3>
+              <h2 class="display-5 fw-semibold mb-3 text-center">
+                Escrow Product and Services
+              </h2>
+              <p class="mb-5" style="text-align: center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ea
+                harum voluptas. Aspernatur optio molestiae incidunt dolores.
+                Voluptate reprehenderit autem cupiditate, a excepturi assumenda
+                quidem, quis minus, eum eius aspernatur.
+              </p>
+              <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container overflow-hidden">
+          <div class="row gy-4 gy-xl-0">
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div class="card border-0 border-bottom border-primary shadow-sm">
+                <div class="card-body text-center p-4 p-xxl-">
+                  <div class="position-relative">
+                    <svg
+                      style="height: 140px"
+                      viewBox="0 0 200 200"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill="#4FE871"
+                        d="M44.6,26C34,44.1,-14.7,40.4,-28.5,20.5C-42.3,0.6,-21.2,-35.5,3.2,-33.6C27.6,-31.8,55.2,8,44.6,26Z"
+                        transform="translate(100 100)"
+                      />
+                    </svg>
+                  </div>
+                  <i
+                    class="fa-solid fa-globe position-absolute top-0"
+                    style="font-size: 30px; margin-bottom: 10px"
+                  ></i>
+                  <h4 class="mb-4">Mobile Design</h4>
+                  <p class="mb-4 text-secondary">
+                    We can help you to design and develop mobile apps and
+                    websites that are user-friendly and visually appealing.
+                  </p>
+                  <a
+                    href="#!"
+                    class="fw-bold text-decoration-none link-primary"
+                  >
+                    Learn More
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div class="card border-0 border-bottom border-primary shadow-sm">
+                <div class="card-body text-center p-4 p-xxl-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="56"
+                    height="56"
+                    fill="currentColor"
+                    class="bi bi-phone-flip text-primary mb-4"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11 1H5a1 1 0 0 0-1 1v6a.5.5 0 0 1-1 0V2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a.5.5 0 0 1-1 0V2a1 1 0 0 0-1-1Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a.5.5 0 0 0-1 0v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2a.5.5 0 0 0-1 0v2ZM1.713 7.954a.5.5 0 1 0-.419-.908c-.347.16-.654.348-.882.57C.184 7.842 0 8.139 0 8.5c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 10.773 5.898 11 8 11c.099 0 .197 0 .294-.002l-1.148 1.148a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708l1.145 1.144L8 10c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 8.639 1 8.506 1 8.5c0-.003 0-.059.112-.17.115-.112.31-.242.6-.376Zm12.993-.908a.5.5 0 0 0-.419.908c.292.134.486.264.6.377.113.11.113.166.113.169 0 .003 0 .065-.13.187-.132.122-.352.26-.677.4-.645.28-1.596.523-2.763.687a.5.5 0 0 0 .14.99c1.212-.17 2.26-.43 3.02-.758.38-.164.713-.357.96-.587.246-.229.45-.537.45-.919 0-.362-.184-.66-.412-.883-.228-.223-.535-.411-.882-.571ZM7.5 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1Z"
+                    />
+                  </svg>
+                  <h4 class="mb-4">Mobile Design</h4>
+                  <p class="mb-4 text-secondary">
+                    We can help you to design and develop mobile apps and
+                    websites that are user-friendly and visually appealing.
+                  </p>
+                  <a
+                    href="#!"
+                    class="fw-bold text-decoration-none link-primary"
+                  >
+                    Learn More
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div class="card border-0 border-bottom border-primary shadow-sm">
+                <div class="card-body text-center p-4 p-xxl-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="56"
+                    height="56"
+                    fill="currentColor"
+                    class="bi bi-heart-pulse text-primary mb-4"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z"
+                    />
+                    <path
+                      d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z"
+                    />
+                  </svg>
+                  <h4 class="mb-4">SEO Services</h4>
+                  <p class="mb-4 text-secondary">
+                    We can help you to drive organic traffic and outrank
+                    competitors with our data-driven SEO strategies and optimize
+                    your content.
+                  </p>
+                  <a
+                    href="#!"
+                    class="fw-bold text-decoration-none link-primary"
+                  >
+                    Learn More
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div class="card border-0 border-bottom border-primary shadow-sm">
+                <div class="card-body text-center p-4 p-xxl-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="56"
+                    height="56"
+                    fill="currentColor"
+                    class="bi bi-mouse text-primary mb-4"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z"
+                    />
+                  </svg>
+                  <h4 class="mb-4">24/7 Support</h4>
+                  <p class="mb-4 text-secondary">
+                    We offer 24/7 support to our clients. This means that you
+                    can always get help when you need it, no matter what time it
+                    is.
+                  </p>
+                  <a
+                    href="#!"
+                    class="fw-bold text-decoration-none link-primary"
+                  >
+                    Learn More
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-short"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
